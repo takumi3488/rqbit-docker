@@ -1,0 +1,9 @@
+services:
+  rqbit:
+    build:
+      dockerfile: Dockerfile
+    ports:
+      - 3030:3030
+    volumes:
+      - ./data:/data
+    command: /usr/local/bin/rqbit --http-api-listen-addr 0.0.0.0:3030 server start /data

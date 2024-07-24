@@ -1,0 +1,1 @@
+Dockerfile for [rqbit](https://github.com/ikatson/rqbit) server
