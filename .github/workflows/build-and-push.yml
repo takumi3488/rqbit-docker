@@ -42,5 +42,5 @@ jobs:
         context: .
         push: true
         tags: |
-          ${{ env.REGISTRY }}/${{ github.repository_owner_id }}/rqbit:latest
+          ${{ env.REGISTRY }}/${{ github.repository_owner }}/rqbit:latest
         labels: ${{ steps.meta.outputs.labels }}
